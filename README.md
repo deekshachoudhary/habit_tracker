@@ -1,16 +1,46 @@
-# habit_tracker
+# Habit Tracker (Flutter)
 
-A new Flutter project.
+A beautiful interactive Habit Tracker app built with Flutter!
+## 🚀 How to Run the Project
 
-## Getting Started
+1. Clone the repository:
+2.  Install dependencies:
+3.  Run on emulator/device:
 
-This project is a starting point for a Flutter application.
+Requires Flutter SDK installed ([Get Started](https://flutter.dev/docs/get-started/install)).
 
-A few resources to get you started if this is your first Flutter project:
+## 🧩 Key Decisions & Architecture
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **State Management:** Provider for clean separation of UI and habit logic.
+- **Persistence:** Shared Preferences for fast, local habit and streak storage.
+- **Animations:** Confetti package for rewarding habit completion, animated progress bars for streaks.
+- **UI:** Modern, card-based, with customizable colors and icons for each habit.
+- **Leaderboards:** Sorts habits by best streak; gamified medals added for top ranks.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Bonus Features
+
+- Customizable habit colors & icons for personalization.
+- Local leaderboard with emoji medals for motivation.
+- Animated confetti feedback for daily completions.
+- Light/Dark mode UI switching.
+
+
+
+## 📎 Repo Link
+
+[GitHub Repository](https://github.com/deekshachoudhary/habit_tracker.git)
+
+## 🔮 Future Improvements
+
+- Add milestone celebration animations (e.g., glowing badges, starbursts) to reward users when breaking streak records.
+- Include a local leaderboard with sorting/filtering and social sharing capabilities.
+- Implement user authentication for cloud backup and cross-device syncing.
+- Add customizable reminders and notifications for habits.
+- Enhance UI with more animations and theme toggles (light/dark mode).
+- Support habit categorization and habit groups.
+- Provide detailed analytics with charts showing progress over weeks/months.
+- Integrate story or motivational quotes related to habits each day.
+
+
+
+
